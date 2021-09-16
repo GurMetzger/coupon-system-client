@@ -1,0 +1,17 @@
+.AddCompany {
+    background-color: rgb(70, 70, 73);
+    border-radius: 30px;
+}
+
+.AddCompany input, .AddCompany button {
+    width: 200px;
+}
+
+.AddCompany button {
+    margin: 15px 0;
+}
+
+.AddCompany > span {
+    font-size: 2.4vh;
+    font-weight: bold;
+}

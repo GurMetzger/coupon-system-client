@@ -1,0 +1,26 @@
+.Register {
+    background-color: rgb(70, 70, 73);
+    border-radius: 30px;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    
+    width: 300px;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+.Register > h2 {
+    padding: 15px 0;
+}
+
+.Register input {
+	width: 250px;
+    box-sizing: border-box;
+}
+
+.Register button {
+    width: 250px;
+    margin: 25px 0;
+}

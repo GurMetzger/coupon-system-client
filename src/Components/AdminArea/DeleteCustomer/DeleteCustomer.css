@@ -1,0 +1,17 @@
+.DeleteCustomer {
+    background-color: rgb(70, 70, 73);
+    border-radius: 30px;
+}
+
+.DeleteCustomer input, .DeleteCustomer button {
+    width: 200px;
+}
+
+.DeleteCustomer button {
+    margin: 15px 0;
+}
+
+.DeleteCustomer > span {
+    font-size: 2.4vh;
+    font-weight: bold;
+}

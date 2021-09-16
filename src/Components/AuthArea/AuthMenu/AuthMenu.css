@@ -1,0 +1,23 @@
+/* The location of the Authentication Menu on the screen */
+.AuthMenu {
+	position: fixed;
+    right: 40px;
+    top: 24px;
+}
+
+/* The "Hello *User* Header */
+.AuthMenu > span {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* The size of the Login/Logout/Register Buttons  */
+.AuthMenu > a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Fixes a small design problem I had */
+.AuthMenu > a > span {
+    background-color: rgb(57, 59, 64);
+}

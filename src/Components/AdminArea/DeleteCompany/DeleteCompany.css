@@ -1,0 +1,17 @@
+.DeleteCompany {
+    background-color: rgb(70, 70, 73);
+    border-radius: 30px;
+}
+
+.DeleteCompany input, .DeleteCompany button {
+    width: 200px;
+}
+
+.DeleteCompany button {
+    margin: 15px 0;
+}
+
+.DeleteCompany > span {
+    font-size: 2.4vh;
+    font-weight: bold;
+}

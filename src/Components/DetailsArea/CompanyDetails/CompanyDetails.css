@@ -1,0 +1,14 @@
+/* Company header */
+.CompanyDetails > h1 {
+    text-align: left;
+    font-size: 6vh;
+    padding-left: 150px;
+}
+
+/* Company data */
+.CompanyDetails > h3 {
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 300px;
+}

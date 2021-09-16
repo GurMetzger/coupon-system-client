@@ -1,0 +1,24 @@
+.Home > h1 {
+    font-size: 4.4vh;
+    font-weight: bolder;
+}
+
+.Home > p {
+    font-size: xx-large;
+}
+
+.Home > p > span {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.Home > h1, .Home > div > h2 > span {
+    color: darkturquoise;
+}
+
+.Home > div {
+    display: inline-block;
+    padding: 0 15px;
+    border: solid 2px rgb(235, 235, 235);
+    border-radius: 30px;
+}

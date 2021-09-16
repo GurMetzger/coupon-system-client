@@ -1,0 +1,9 @@
+.CustomerList {
+    overflow: auto;
+    height: 80vh;
+}
+
+.CustomerList > h1 {
+    font-size: 6vh;
+}
+

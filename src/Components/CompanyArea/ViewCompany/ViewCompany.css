@@ -1,0 +1,20 @@
+.ViewCompany {
+    background-color: rgb(70, 70, 73);
+    border-radius: 30px;
+
+    box-sizing: border-box;
+    width: 320px;
+    height: 132px;
+    
+    margin-top: 20px;
+}
+
+.ViewCompany button {
+    width: 200px;
+    margin: 15px 0;
+}
+
+.ViewCompany > span {
+    font-size: 2.4vh;
+    font-weight: bold;
+}

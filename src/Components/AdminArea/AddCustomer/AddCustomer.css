@@ -1,0 +1,17 @@
+.AddCustomer {
+    background-color: rgb(70, 70, 73);
+    border-radius: 30px;
+}
+
+.AddCustomer input, .AddCustomer button {
+    width: 200px;
+}
+
+.AddCustomer button {
+    margin: 15px 0;
+}
+
+.AddCustomer > span {
+    font-size: 2.4vh;
+    font-weight: bold;
+}

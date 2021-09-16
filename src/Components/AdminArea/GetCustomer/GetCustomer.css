@@ -1,0 +1,13 @@
+.GetCustomer {
+    background-color: rgb(70, 70, 73);
+    border-radius: 30px;
+}
+
+.GetCustomer input, .GetCustomer button {
+    width: 200px;
+}
+
+.GetCustomer > span {
+    font-size: 2.4vh;
+    font-weight: bold;
+}

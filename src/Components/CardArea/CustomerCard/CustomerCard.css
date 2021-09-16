@@ -1,0 +1,7 @@
+.CustomerCard {
+    width: 300px;
+}
+
+.CustomerCard > a > div > span > svg {
+    left: 202px;
+}

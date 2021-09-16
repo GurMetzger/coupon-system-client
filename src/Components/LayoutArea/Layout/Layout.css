@@ -1,0 +1,38 @@
+.Layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 15% 80% 5%;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* Layout */
+.Layout > main, .Layout > footer {
+    grid-column: span 6;
+}
+
+.Layout > aside {
+    grid-column: span 5;
+}
+
+/* Color areas */
+.Layout > main {
+    background-color: rgb(24, 24, 24);
+}
+
+.Layout > header, aside, footer {
+    background-color: rgb(57, 59, 64);
+}
+
+/* Borders */
+.Layout > header, aside {
+    border-bottom: 1px solid rgb(24, 24, 24);
+}
+
+.Layout > header {
+    border-right: 6px solid rgb(24, 24, 24);
+}
+
+.Layout > footer {
+    border-top: 1px solid rgb(24, 24, 24);
+}

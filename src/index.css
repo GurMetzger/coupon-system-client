@@ -1,0 +1,61 @@
+html, body, a, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    
+    font-family: Arial, Helvetica, sans-serif; /* Global Text Font */
+    color: rgb(235, 235, 235); /* Global Text Color */
+}
+
+/* Styling for Customer/Company/Coupon Card */
+/* ---------------------------------------- */
+.Card {
+    display: inline-block;
+    background-color: rgb(57, 59, 64);
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 12px;
+    padding: 0 10px 8px 10px;
+    margin: 10px;
+}
+.Card > a {
+    text-decoration: none;
+    text-align: left;
+}
+.Card > a > div > span > svg {
+    position: relative;
+    top: 8px;
+}
+/* ---------------------------------------- */
+
+/* Styling for Menu Buttons */
+.MenuButton > a {
+    display: flex;
+    flex-flow: column;
+    
+    padding-top: 20px;
+    background-color: rgb(77, 77, 77);
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* A feature I didn't have time to implement :) */
+.LightTheme {
+    color: black; /* Text Color */
+
+}
+
+.DarkTheme {
+    color: rgb(235, 235, 235); /* Text Color */
+
+    background-color: rgb(77, 77, 77); /* Menu Button: non-active */
+    background-color: rgb(99, 99, 99); /* Menu Button: active */
+
+    background-color: rgb(24, 24, 24); /* Color of main area */
+    background-color: rgb(57, 59, 64); /* Color of header, aside and footer area */
+}

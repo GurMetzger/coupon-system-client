@@ -1,0 +1,18 @@
+.UpdateCustomer {
+    box-sizing: border-box;
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    margin-top: -400px;
+    margin-right: -180px;
+
+    width: 300px;
+    height: 400px;
+
+    background-color: rgb(70, 70, 73);
+    border-radius: 30px;
+}
+
+.UpdateCustomer input, .UpdateCustomer button {
+    width: 200px;
+}

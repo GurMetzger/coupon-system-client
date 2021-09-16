@@ -1,0 +1,16 @@
+.Menu > nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 12px;
+    margin: 32px 0 0 40px;
+}
+
+/* Active Menu Button Styling */
+.Menu .active {
+    color: white;
+    background-color: rgb(99, 99, 99);
+    font-weight: bold;
+    
+    /* Button is locked when active */
+    pointer-events: none; 
+}

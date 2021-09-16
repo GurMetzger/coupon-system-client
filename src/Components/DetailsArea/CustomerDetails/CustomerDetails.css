@@ -1,0 +1,14 @@
+/* Customer header */
+.CustomerDetails > h1 {
+    text-align: left;
+    font-size: 6vh;
+    padding-left: 150px;
+}
+
+/* Customer data */
+.CustomerDetails > h3 {
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 300px;
+}

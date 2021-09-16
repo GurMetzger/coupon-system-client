@@ -1,0 +1,14 @@
+.CouponListDetails {
+    position: absolute;
+    bottom: 80px;
+    left: 36%;
+
+    width: 848px;
+    height: 477px;
+
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 8px;
+
+    padding: 10px 0;
+    overflow: auto;
+}

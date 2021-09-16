@@ -1,0 +1,14 @@
+.CouponListPage {
+    overflow: auto;
+    width: 100%;
+    height: 749px;
+
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.CouponListPage > h1 {
+    position: absolute;
+    font-size: 6vh;
+    left: 650px;
+}

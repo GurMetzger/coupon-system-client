@@ -1,0 +1,7 @@
+.CompanyCard {
+    width: 300px;
+}
+
+.CompanyCard > a > div > span > svg {
+    left: 202px;
+}

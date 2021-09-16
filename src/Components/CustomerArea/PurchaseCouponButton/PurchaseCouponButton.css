@@ -1,0 +1,11 @@
+.PurchaseCouponButton {
+	position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 94px;
+}
+
+.PurchaseCouponButton > button > span {
+    font-size: larger;
+    font-weight: bold;
+}

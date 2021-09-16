@@ -1,0 +1,11 @@
+.AdminMain {
+    height: 74vh;
+    width: 100vw;
+    
+	display: grid;
+    grid-template-rows: 45% 55%;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 100px;
+    row-gap: 30px;
+    margin-top: 15px;
+}

@@ -1,0 +1,14 @@
+.CustomerMain {
+    height: 74vh;
+    width: 100vw;
+    
+	display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 20px;
+}
+
+.CustomerMain > h1 {
+    position: absolute;
+    font-size: 6vh;
+    padding-left: 400px;
+}

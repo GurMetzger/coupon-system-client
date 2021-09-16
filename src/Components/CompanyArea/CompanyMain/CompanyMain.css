@@ -1,0 +1,15 @@
+.CompanyMain {
+	height: 74vh;
+    width: 100vw;
+    
+	display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 30px;
+    margin-top: 20px;
+}
+
+.CompanyMain > h1 {
+    position: absolute;
+    font-size: 6vh;
+    padding-left: 400px;
+}

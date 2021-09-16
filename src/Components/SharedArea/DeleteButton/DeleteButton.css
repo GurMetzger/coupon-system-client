@@ -1,0 +1,11 @@
+.DeleteButton > button {
+    position: absolute;
+    bottom: 300px;
+    right: 3%;
+    margin-right: -16px;
+
+    width: 240px;
+
+    font-size: larger;
+    font-weight: bold;
+}

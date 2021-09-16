@@ -1,0 +1,7 @@
+.CouponCard {
+    width: 226px;
+}
+
+.CouponCard > a > div > span > svg {
+    left: 140px;
+}
